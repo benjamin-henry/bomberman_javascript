@@ -12,41 +12,34 @@
 
     <!-- Modal content -->
     <div class="modal-content">
-        <img src="./img/nuke.jpeg" alt="nuke">
+      <img src="./img/nuke.jpeg" alt="nuke">
+      <div class="centered">
         <div class="">
-
+          <input class="" type="checkbox" id="enablePLayer1" name="enablePLayer1" checked>
+          <label class="" for="enablePLayer1">Player_1 : </label>
+          <input class="" type="text" name="Player_1_name" value="Player_1" id="player_1_name">
         </div>
-        <div class="centered">
-          <div class="">
-            <input class="" type="checkbox" id="enablePLayer1" name="enablePLayer1" checked>
-            <label class="" for="enablePLayer1">Player_1 : </label>
-            <input class="" type="text" name="Player_1_name" value="Player_1">
-          </div>
-
-          <div class="">
-            <input class="" type="checkbox" id="enablePLayer2" name="enablePLayer2">
-            <label class="" for="enablePLayer2">Player_2 : </label>
-            <input class="" type="text" name="Player_2_name" value="Player_2">
-          </div>
-
-          <div class="">
-            <button type="button" name="button">BOUM !</button>
-          </div>
-
+        <div class="">
+          <input class="" type="checkbox" id="enablePLayer2" name="enablePLayer2">
+          <label class="" for="enablePLayer2">Player_2 : </label>
+          <input class="" type="text" name="Player_2_name" value="Player_2" id="player_2_name">
         </div>
-
-
-
-
+        <div class="">
+          <button type="button" name="button" id="landingModalBtn">BOUM !</button>
+        </div>
+      </div>
     </div>
   </div>
 
-
   <script src="js/general.js" charset="utf-8"></script>
+  <script src="js/wall.js" charset="utf-8"></script>
   <script src="js/utils.js" charset="utf-8"></script>
   <script src="js/terrain.js" charset="utf-8"></script>
   <script src="js/onLanding.js" charset="utf-8"></script>
-  <script src="script.js" charset="utf-8"></script>
+  <script src="js/player.js" charset="utf-8"></script>
+  <script src="js/bomb.js" charset="utf-8"></script>
+  <script src="js/explosion.js" charset="utf-8"></script>
+
 </body>
 
 </html>
